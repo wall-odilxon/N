@@ -215,7 +215,7 @@ class YurakChizuvchi:
             self.ekran.update()
             self.ekran.ontimer(
                 lambda: self.animatsiya_qadami(mening_id, qatorlar, i + 1,
-                                               qator_yozish, tugatish), 25)
+                                               qator_yozish, tugatish), 90)
         else:
             tugatish()
 
